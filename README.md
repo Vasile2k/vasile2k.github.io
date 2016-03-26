@@ -30,6 +30,11 @@ I love rats <3
         jnc read_root_directory
         mov si, disk_error
         jmp error '''
+        
+        ```python
+        s = "Python syntax highlighting"
+        print s
+        ```
 
 Maybe, nope?
 !!!!!!!!!!!!
