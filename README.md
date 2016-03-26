@@ -20,19 +20,17 @@ I love rats <3
     </tr>
 </table>
 
-''' nasm
-        popa ; In case resgisters are altered by interrupt 13h
-	pusha
-
-	stc                        ; Set carry... if BIOS doesn't
-	int 13h
-
-	jnc search_directory
-	call reset_disk
-	jnc read_root_directory
-
-	mov si, disk_error
-	jmp error '''
+    ''' nasm
+    ; In case resgisters are altered by interrupt 13h
+    popa
+    pusha
+    stc                        ; Set carry... if BIOS doesn't
+    int 13h
+    jnc search_directory
+    call reset_disk
+    jnc read_root_directory
+    mov si, disk_error
+    jmp error '''
 
 Maybe, nope?
 !!!!!!!!!!!!
