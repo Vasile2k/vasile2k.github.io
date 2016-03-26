@@ -20,8 +20,8 @@ I love rats <3
     </tr>
 </table>
 
-''' nasm ; In case resgisters are altered by interrupt 13h
-	popa
+''' nasm
+        popa ; In case resgisters are altered by interrupt 13h
 	pusha
 
 	stc                        ; Set carry... if BIOS doesn't
