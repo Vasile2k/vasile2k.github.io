@@ -20,6 +20,8 @@ I love rats <3
     </tr>
 </table>
 
+###### The Uaie is incoming...
+
 ```nasm
 ; In case resgisters are altered by interrupt 13h
 popa
@@ -32,6 +34,8 @@ jnc read_root_directory
 mov si, disk_error
 jmp error
 ```
+
+###### ...the Uaie is no longer incoming
 
 Maybe, nope?
 !!!!!!!!!!!!
