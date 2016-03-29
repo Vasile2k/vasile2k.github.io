@@ -23,6 +23,8 @@ I love rats <3
 ###### The Uaie is incoming...
 
 ```nasm
+db uaie "uaie"
+db cal "cal"
 ; In case resgisters are altered by interrupt 13h
 popa
 pusha
