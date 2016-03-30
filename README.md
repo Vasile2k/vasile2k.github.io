@@ -9,7 +9,7 @@ I love rats <3
         <td>Foo</td>
     </tr>
     <tr>
-        <td>Foo</td>
+        <td>Bar</td>
         <td>Foo</td>
         <td>Foo</td>
     </tr>
