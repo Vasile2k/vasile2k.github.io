@@ -11,7 +11,7 @@ I love rats <3
     <tr>
         <td>Bar</td>
         <td>Foo</td>
-        <td>Foo</td>
+        <td>Baz</td>
     </tr>
     <tr>
         <td>Foo</td>
